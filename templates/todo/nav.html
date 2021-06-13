@@ -1,0 +1,28 @@
+<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+<span class="icon-text">
+  <span class="icon">
+ <i class="fas fa-tasks fas fa-lg"></i>
+  </span>
+  <span>Home</span>
+</span>
+        </a>
+    </div>
+    <div class="navbar-end">
+        <div class="navbar-item">
+            <form method="POST">
+                {% csrf_token %}
+                <div class="field has-addons">
+                    <div class="control">
+                        <input name="task" class="input" type="text" placeholder="Add Todo">
+                    </div>
+                    <div class="control">
+                        <button type="submit" class="button is-link">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</nav>
