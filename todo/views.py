@@ -30,6 +30,7 @@ def mark_complete(request, todo_id):
     todo = Todo.objects.get(id=todo_id)
     todo.completed = True
     todo.save()
+    messages.success(request, ('Task Completed!'))
     return redirect('home')
 
 

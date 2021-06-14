@@ -1,7 +1,7 @@
 {% extends 'todo/base.html' %}
 
 {% block content %}
-    <section class="section">
+    <section class="section column is-4 is-offset-4" style="margin-top: 50px">
         <form method="POST">
             {% csrf_token %}
             <div class="field has-addons">

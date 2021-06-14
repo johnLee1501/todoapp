@@ -1,0 +1,17 @@
+<div id="modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">Modal {{ todo.id }}</p>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            {{ todo.id }}
+        </section>
+        <footer class="modal-card-foot">
+            <button class="button is-success">Save changes</button>
+{#             href="{% url 'delete' todo.id %}"#}
+            <button class="button">Cancel</button>
+        </footer>
+    </div>
+</div>

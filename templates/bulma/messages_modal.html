@@ -1,0 +1,16 @@
+<div id="modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+        {% for message in messages %}
+            <article class="message is-success">
+                <div class="message-header">
+                    <p>Nice!</p>
+                </div>
+                <div class="message-body">
+                    {{ message }}
+                </div>
+            </article>
+        {% endfor %}
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+</div>
