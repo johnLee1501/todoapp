@@ -1,7 +1,11 @@
 # TodoApp
 Una sencilla app para gestionar tareas. 
 
-### Algunas características principales: 
+## Algunas características principales: 
+-Crear tareas
+-Eliminar tareas
+-Marcar como completada o no una tarea
+-Editar nombre de la tarea
 
 ![image](https://user-images.githubusercontent.com/71096926/121835618-5bf76500-cc97-11eb-912e-8582a783ab13.png)
 
